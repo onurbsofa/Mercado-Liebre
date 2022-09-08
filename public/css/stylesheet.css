@@ -273,29 +273,3 @@ color: #999;
             width:150px ;
         }
 }
-/*  @media (max-width: 569px){
-    .seccion-main{
-        flex-direction: column;
-       }
-    .seccion-footer{
-        flex-direction: column;
-    }
-    .conteiner-header{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row
-    }
-        .nav-header{
-            visibility: hidden;
-        }
-        .nav-menu{
-            visibility: hidden;
-        }
-
-} */
-
-/* @keyframes{
-    0%   { transform: ; }
-    50%  { transform: ; }
-    100% { transform: ; }
-} */
