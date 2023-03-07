@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.cuerpo-texto{
+    font-size: 12px;
+}
+
+.header{
+    width: 100%;
+    background-color: #EAC926;
+    padding-bottom: 1px;
+}
+
+.logo-y-search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.img-header{
+    width: 30%;
+}
+
+.buscador{
+    width: 45vw;
+    border-radius: 4px;
+    padding: 1vh 1vw;
+    border: none;
+}
+
+.menu{
+    text-align: center;
+}
+
+.icono-menu{
+    padding: 7px 9px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #0749ac;
+    color: white;
+    margin-top: 3px;
+}
+
+.texto-header{
+    font-size: 12px;
+    padding-left: 5%;
+    margin-bottom: 10px;
+}
+
+.main{
+    padding-top: 15px;
+}
+
+.tit-y-subt{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+.formulario{
+    margin: 35px 0;
+}
+
+.campos-y-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campos div{
+    margin-bottom: 13px;
+}
+
+.label{
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+#label-nacimiento{
+    font-size: 18px;
+}
+
+.varias-opciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-titulo{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#nacimiento{
+    padding: 3px 0 3px 8px;
+}
+
+.opciones{
+    margin-bottom: 2.5px;
+}
+
+.input-abajo{
+    display: flex;
+    flex-direction: column;
+}
+
+#boton-foto{
+    margin-top: 5px;
+}
+
+.input-costado{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#input-eleccion{
+    padding: 4px 60px 4px 0;
+    margin-bottom: 10px;
+}
+
+#label-eleccion{
+    font-size: 18px;
+}
+
+.input-barra{
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.botones{
+    margin-left: 140px;
+}
+
+#arreglo1{
+    width: 350px;
+}
+
+#arreglo2{
+    margin-left: 140px;
+}
+
+.boton{
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #EAC926;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: #EAC926;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.redireccion-boton{
+    text-decoration: none;
+    color: #EAC926;
+    font-size: 15px;
+}
+
+.redireccion-boton:hover{
+    color: #ffffff;
+}
+
+.footer{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.division-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones-footer{
+    text-align: center;
+    width: 60vw;
+    padding: 15px 0 10px;
+}
+
+.iconos-footer{
+    color: #1259c3;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 599px) {
+    .boton-header{
+        display: none;
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+    .login-bar{
+        display: none;
+    }
+
+    #arreglo1{
+        width: 280px;
+    }
+    
+    #arreglo2{
+        margin-left: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+    .boton-header{
+        display: none;
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+    .login-bar{
+        display: none;
+    }
+
+    .division-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px 0 15px;
+    }
+
+    .secciones-footer{
+        width: 20%;
+    }
+}
+
+
+@media (min-width: 1025px) { 
+    .logo-y-search-bar{
+        padding-top: 2.5vh;
+        padding-bottom: 2vh;
+    }
+    
+    .menu{
+        display: none;
+    }
+
+    .buscador{
+        padding: 15px 0;
+        border-radius: 4px 0 0 4px;
+        margin-left: 15vw;
+    }
+
+    .buscador::placeholder{
+        font-size: 16px;
+        padding-left: 6px;
+    }
+
+    .boton-header{
+        width: 33px;
+        height: 45px;
+        background-color: white;
+        border: 0px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .texto-header{
+        display: none;
+    }
+
+    .lista-header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2vh;
+    }
+
+    .navbar{
+        list-style-type: none;
+        width: 35vw;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 2vw;
+    }
+
+    .redirecciones{
+        text-decoration: none;
+        color: #1f1f20;
+        text-decoration-style: solid;
+    }
+
+    .login-bar{
+        list-style-type: none;
+        width: 35vw;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 1vw;
+    }
+
+    
+
+    .division-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px 0 15px;
+    }
+
+    .secciones-footer{
+        width: 20%;
+    }
+}

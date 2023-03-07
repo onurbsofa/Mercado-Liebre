@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado trucho</title>
+    <link rel="stylesheet" href="/css/styles-register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e18477f2d5.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo-y-search-bar">
+            <img src="/img/logo-mercado-liebre.svg" alt="logo" class="img-header">
+            <nav class="search-bar">
+                <input type="search" placeholder="Buscar productos, marcas y más..." class="buscador"><button type="submit" class="boton-header"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </nav>
+            <div class="menu">
+                <i class="fas fa-bars icono-menu"></i>
+            </div>
+        </div>
+        <p class="texto-header"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        <nav class="lista-header">
+            <ul class="navbar">
+                <li><a href="#ofertas" alt="ofertas" class="redirecciones">Ofertas</a></li>     <!-- atributo target: "_self" (está por defecto, abre en misma pestaña), "_blanc" (abre en otra pestaña) -->
+                <li><a href="" alt="" class="redirecciones">Tiendas Oficiales</a></li>          <!-- atributo title: al pararse encima del contenido de la etiqueta muestra lo ingresado -->
+                <li><a href="" alt="" class="redirecciones">Vender</a></li>                     <!-- atributo alt: sirve para describir el contenido, en caso de haber un fallo el contenido de la etiqueta principal, mostrará el contenido de "alt", y además sirve para los programas de lectura de pagina (sirve para ciegos) -->
+                <li><a href="" alt="" class="redirecciones">Ayuda</a></li>
+            </ul>
+            <ul class="login-bar">              
+                <li><a href="/register" alt="" class="redirecciones"><i class="fa-regular fa-address-card"></i> Creá tu cuenta</a></li>
+                <li><a href="/login" alt="" class="redirecciones"><i class="fa-solid fa-right-to-bracket"></i> Ingresá</a></li>
+                <li><a href="" alt="" class="redirecciones"><i class="fa-solid fa-basket-shopping"></i> Mis compras</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="tit-y-subt">      
+            <h2 class="titulo">Registrate</h2>
+            <h3 class="subtitulo">Por favor, completá los siguientes datos:</h3> 
+        </div>
+        <form action="/" method="get" id="formulario" class="formulario">
+            <div class="campos-y-botones">
+                <div class="campos">
+                    <div class="input-abajo">
+                        <label for="" class="label">Nombre y apellido</label>
+                        <input type="text" name="" class="input-barra">
+                    </div>
+                    <div class="input-abajo">
+                        <label for="" class="label">Nombre de usuari@</label>
+                        <input type="text" name="" class="input-barra">
+                    </div>
+                    <div class="input-costado">
+                        <label for="" id="label-nacimiento">Fecha de nacimiento</label>
+                        <input type="date" name="" id="nacimiento">
+                    </div>
+                    <div class="input-abajo">
+                        <label for="" class="label">Domicilio</label>
+                        <input type="text" name="" class="input-barra">
+                    </div>
+                    <div class="input-costado">
+                        <label for="" id="label-eleccion">Perfil del usuario</label>
+                        <select name="" id="input-eleccion">
+                            <option value=""></option>
+                            <option value="">Comprador</option>
+                            <option value="">Vendedor</option>
+                        </select> <!--elegir entre comprador y vendedor-->
+                    </div>
+                    <div class="varias-opciones">
+                        <label for="" class="label-titulo">Categorías de interés</label>
+                        <label for="" class="opciones"><input type="checkbox" name="Electro">Electro</label> 
+                        <label for="" class="opciones"><input type="checkbox" name="Moda">Moda</label> 
+                        <label for="" class="opciones"><input type="checkbox" name="Hogar">Hogar</label> 
+                        <label for="" class="opciones"><input type="checkbox" name="Juguetería">Juguetería</label> 
+                        <label for="" class="opciones"><input type="checkbox" name="Fitness">Fitness</label> 
+                        <label for="" class="opciones"><input type="checkbox" name="Deportes">Deportes</label> 
+                    </div>
+                    <div class="input-abajo">
+                        <label for="" class="label">Foto de usuario</label>
+                        <input type="file" name="foto" id="boton-foto">
+                    </div>
+                    <div class="input-abajo">
+                        <label for="" class="label">Contraseña</label>
+                        <input type="password" name="" class="input-barra">
+                    </div>
+                    <div class="input-abajo">
+                        <label for="" class="label">Confirmar contraseña</label>
+                        <input type="password" name="" class="input-barra">
+                    </div>
+                </div>
+                <div class="botones">
+                    <button class="boton"><a href="/" class="redireccion-boton"><b>Enviar</b></a></button>
+                    <button class="boton"><a href="/register" class="redireccion-boton"><b>Resetear</b></a></button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="division-footer">
+            <div class="secciones-footer">
+                <p><i class="fa-solid fa-credit-card iconos-footer"></i></p>
+                <h4>Pagá con tarjeta o efectivo</h4>
+                <p class="cuerpo-texto">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div class="secciones-footer">
+                <p><i class="fa-solid fa-gift iconos-footer"></i></p>
+                <h4>Envío gratis desde $ 2.500</h4>
+                <p class="cuerpo-texto">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div class="secciones-footer">
+                <p><i class="fa-solid fa-user-shield iconos-footer"></i></p>
+                <h4>Seguridad, de principio a fin</h4>
+                <p class="cuerpo-texto">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </div>
+        </div>
+        <p class="cuerpo-texto">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </footer>
+</body>
+</html>
