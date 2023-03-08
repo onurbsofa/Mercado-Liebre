@@ -27,10 +27,9 @@
     padding: 5px 0;
 }
 
-.img-header{
-    width: 30%;
+header a{
+    width: 30%; 
 }
-
 .buscador{
     width: 45vw;
     border-radius: 4px;
@@ -156,9 +155,9 @@
 }
 
 .boton{
-    background-color: #ffffff;
+    background-color: blue;
     padding: 10px;
-    border: 2px solid #EAC926;
+    border: 2px solid ;
     border-radius: 5px;
 }
 
@@ -171,7 +170,7 @@
 
 .redireccion-boton{
     text-decoration: none;
-    color: #EAC926;
+    color:  #ffffff;
     font-size: 15px;
 }
 

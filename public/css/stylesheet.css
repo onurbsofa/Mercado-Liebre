@@ -110,13 +110,6 @@ section {
 .product-container:hover .descripcion {
     display: block;
 }
-.fa-bars {
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
 
 .visita {
     margin-top: 0px;
@@ -211,50 +204,6 @@ section {
         display: flex;
         justify-content: space-around;
     }
-
-   /*  .header-logo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .header-bar {
-        display: flex;
-        justify-content: space-between;
-        font-size: 12px;
-    }
-
-    #logo {
-        width: 200px;
-        margin: 0;
-        
-    }
-    
-    .nav-bar{
-        display: flex;
-    }
-    .nav-bar a{
-        margin: 0px 5px;
-    }
-    
-    .login{
-        display: flex;
-        font-size: 12px;
-    }
-
-    .login div{
-        margin: 0px 5px;
-    }
-
-    #dollar {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-    .burger-menu {
-        display: none;
-    }
- */
     .descripcion {
         display: block;
     }
@@ -277,7 +226,7 @@ section {
 }
 
 
-@media (max-width: 599px) {
+ @media (max-width: 599px) {
     .boton-header{
         display: none;
     }
@@ -290,7 +239,7 @@ section {
         display: none;
     }
 
-}
+} 
 
 
 @media only screen and (min-width: 600px) and (max-width: 1024px){
